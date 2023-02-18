@@ -1,0 +1,11 @@
+created: 20230212202937930
+creator: satran
+modified: 20230217205021683
+modifier: satran
+tags: Scripts $:/tags/Macro
+title: $:/satran/macros/listTasks
+type: text/vnd.tiddlywiki
+
+\define listTasks()
+<<list-tagged-draggable tag:"task" subFilter:"!has[draft.of]!tag[done]tag<storyTiddler>" itemTemplate:"TaskDraggableTemplate" emptyMessage:"You don't have any active tasks">>
+\end

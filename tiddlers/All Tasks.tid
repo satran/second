@@ -1,0 +1,17 @@
+created: 20230212192735532
+modified: 20230212203015546
+tags: 
+title: All Tasks
+type: text/vnd.tiddlywiki
+
+! Outstanding tasks
+
+<<listTasks>>
+
+! Completed tasks
+
+<$list filter="[!has[draft.of]tag[task]tag[done]sort[modified]]">
+<div>
+<$checkbox tag="done"> ~~<$link/>~~</$checkbox>
+</div>
+</$list>

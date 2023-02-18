@@ -1,0 +1,18 @@
+created: 20230217190343973
+modified: 20230217203511153
+tags: Scripts $:/tags/Macro
+title: $:/satran/macros/capture
+type: text/vnd.tiddlywiki
+
+\define captureTask(title)
+<$keyboard key="enter">
+  <$action-createtiddler $basetitle={{$:/state/projectify/QuickCapture!!todo_name}} tags="$title$ task"/>
+  <$action-setfield $tiddler="$:/state/projectify/QuickCapture" todo_name=""/>
+  <$edit-text
+    class="input-large embedded"
+    tiddler="$:/state/projectify/QuickCapture"
+    field="todo_name"
+    placeholder="Add task ..."
+  /> 
+</$keyboard>
+\end

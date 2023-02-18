@@ -1,0 +1,14 @@
+[
+    {
+        "created": "20210220111604539",
+        "text": "\\define newHereButtonTags()\n[[$(currentTiddler)$]]\n\\end\n\n\\define newLogHereButton()\n<$button class=<<tv-config-toolbar-class>>>\n<$action-sendmessage\n  $message=\"tm-new-tiddler\"\n\t$param=\"Log Template\"\n\ttitle=<<now \"$(currentTiddler)$/YYYY-0MM-0DD\">>\n    caption=<<now \"YYYY-0MM-0DD\">>\n  tags=<<newHereButtonTags>> />\n\n<$list filter=\"[<tv-config-toolbar-icons>match[yes]]\">\n{{$:/core/images/list}}\n</$list>\n<$list filter=\"[<tv-config-toolbar-text>match[yes]]\">\n<span class=\"tc-btn-text\"><$text text=\"new log here\"/></span>\n</$list>\n</$button>\n\\end\n\n<<newLogHereButton>>",
+        "creator": "satran",
+        "title": "$:/satran/toolbars/newLogHere",
+        "tags": "Scripts $:/tags/ViewToolbar",
+        "modified": "20230217204703752",
+        "modifier": "satran",
+        "type": "text/vnd.tiddlywiki",
+        "description": "Create a custom log ",
+        "caption": "New Log Here"
+    }
+]

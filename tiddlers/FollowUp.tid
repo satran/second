@@ -1,0 +1,7 @@
+created: 20230213094227146
+modified: 20230213094246565
+tags: Actions
+title: FollowUp
+type: text/vnd.tiddlywiki
+
+<<list-tagged-draggable tag:"task" subFilter:"!has[draft.of]!tag[done]tag[FollowUp]" itemTemplate:"TaskDraggableTemplate" emptyMessage:"You don't have any active tasks">>

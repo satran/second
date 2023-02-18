@@ -1,0 +1,11 @@
+created: 20210221213450484
+creator: satran
+modified: 20230217204527149
+modifier: satran
+tags: Scripts $:/tags/Macro
+title: $:/satran/macros/listTag
+type: text/vnd.tiddlywiki
+
+\define listTag()
+<$list filter="[tag<storyTiddler>!tag[done]]"></$list>
+\end

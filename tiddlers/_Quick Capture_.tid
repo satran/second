@@ -1,0 +1,18 @@
+created: 20230217184912960
+modified: 20230217190245268
+tags: Scripts Contents
+title: _Quick Capture_
+type: text/vnd.tiddlywiki
+
+<$keyboard key="enter">
+  <$action-createtiddler $basetitle={{$:/state/projectify/QuickCapture!!todo_name}} tags="task"/>
+  <$action-setfield $tiddler="$:/state/projectify/QuickCapture" todo_name=""/>
+  <$action-sendmessage $message="tm-close-tiddler"/>
+  <$edit-text
+    class="input-large"
+    tiddler="$:/state/projectify/QuickCapture"
+    field="todo_name"
+    placeholder={{$:/language/projectify/AddToInbox/Placeholder}}
+    focus="true"
+  /> 
+</$keyboard>

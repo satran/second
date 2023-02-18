@@ -1,0 +1,16 @@
+created: 20230217185126785
+modified: 20230217204450775
+tags: Scripts $:/tags/Stylesheet
+title: $:/satran/stylesheets/default
+type: text/vnd.tiddlywiki
+
+.input-large {
+    width: 100%;
+    border: 1px solid <<colour tiddler-editor-border>>;
+    background: <<colour tiddler-editor-background>>;
+    padding: .5em;
+}
+.input-large.embedded {
+    border:none;
+    border-bottom: 1px solid <<colour tiddler-editor-border>>;
+}

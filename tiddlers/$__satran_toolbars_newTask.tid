@@ -1,0 +1,15 @@
+caption: New Task
+created: 20230213164835539
+creator: satran
+description: Create a task from the current tiddler
+modified: 20230217204716445
+modifier: sat
+tags: Scripts $:/tags/PageControls
+title: $:/satran/toolbars/newTask
+type: text/vnd.tiddlywiki
+
+<$button class=<<tv-config-toolbar-class>>>
+{{$:/core/images/close-others-button}}
+<$action-sendmessage $message="tm-new-tiddler" tags="task" />
+</$button>
+

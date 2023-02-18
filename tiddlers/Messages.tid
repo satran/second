@@ -1,0 +1,7 @@
+created: 20230212203610285
+modified: 20230212211453778
+tags: Actions
+title: Messages
+type: text/vnd.tiddlywiki
+
+<<list-tagged-draggable tag:"task" subFilter:"!has[draft.of]!tag[done]tag[Messages]" itemTemplate:"TaskDraggableTemplate" emptyMessage:"You don't have any active tasks">>

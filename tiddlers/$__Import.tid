@@ -1,0 +1,15 @@
+status: complete
+title: $:/Import
+type: text/vnd.tiddlywiki
+
+The following tiddlers were imported:
+
+# [[_Quick Capture_]]
+# [[$:/satran/macros/capture]]
+# [[$:/satran/macros/listLog]]
+# [[$:/satran/macros/listTag]]
+# [[$:/satran/macros/listTasks]]
+# [[$:/satran/stylesheets/default]]
+# [[$:/satran/toolbars/newLogHere]]
+# [[$:/satran/toolbars/newTask]]
+# [[$:/satran/toolbars/newTaskHere]]
